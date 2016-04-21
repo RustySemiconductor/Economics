@@ -1,8 +1,8 @@
 {
-  "name": "MarketEconomy",
+  "name": "Economics",
   "version": "0.0.1",
-  "title": "Market Economy",
+  "title": "Economics",
   "author": "RustySemiconductor",
   "homepage": "https://github.com/RustySemiconductor",
-  "description": "Factorio meets Patrician"
+  "description": "Factorio meets Capitalism!"
 }
