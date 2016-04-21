@@ -22,7 +22,7 @@ data:extend(
       ingredients = {{"science-pack-1", 1}},
       time = 15
     },
-    order = "a-d-b"
+    order = "a-b-d"
   },
 }
 )
