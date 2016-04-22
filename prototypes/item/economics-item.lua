@@ -16,7 +16,7 @@ data:extend(
     icon = "__Economics__/graphics/icons/economics-seller-chest.png",
     flags = {"goes-to-quickbar"},
     subgroup = "storage",
-    order = "a[items]-f[economics-seller-chest]",
+    order = "a[items]-e[economics-seller-chest]",
     place_result = "economics-seller-chest",
     stack_size = 50
   },
