@@ -11,5 +11,7 @@ I know about GalacticTrade mod, but it seems abandoned. I also want to practice 
 - Reputation and interaction. Player will be a part of market, not its centre.
 
 ##TODO:
-- [ ] Integrate basic price tables into base game.
-- [ ] Add basic buy-sell chests, which would allow to work only with market price.
+- [ ] Add basic chests (similar to vanilla smart chest).
+- [ ] Add logistic chests (similar to vanilla logistic chests).
+- [ ] Integrate price tables into base game
+- [ ] Create link between chests and market
