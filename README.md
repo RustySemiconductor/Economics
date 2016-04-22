@@ -14,6 +14,7 @@ I know about GalacticTrade mod, but it seems abandoned. I also want to practice 
 - **Items, entities and recipes**
   - [x] Basic buyer and seller chests (similar to vanilla smart chest)
   - [ ] Logistic buyer and seller chests (active and passive provider as buyer, requester and storage as seller)
+  - [ ] Technology tree integration
   - [ ] Graphics and icons
 - **Base game integration**
   - [ ] Basic market statistics, price and quantity tables
