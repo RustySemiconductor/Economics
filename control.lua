@@ -3,17 +3,20 @@ require "defines"
 -- cost_price - total outlay required to produce something
 -- market_price or selling_price - cost_price + profit
 
+-- I decided to define cost price of resources as function of time (s) and electric power (kW) 
+-- of corresponding machinery, so energy_cost can be used as universal reference point
+energy_cost = 1
+
+machinery_power = {
+  electric_mining_drill = 90,
+  pumpjack              = 90,
+  electric_furnace      = 180,
+  assembling_machine    = 210,
+  chemical_plant        = 210,
+  oil_refinery          = 420
+}
+
 function get_item_cost_price(item)
-  -- Let's define cost price of raw resources as function of time and electric power (in kJ) of corresponding machinery
-  local assembling_machine_power    = 210
-  local chemical_plant_power        = 210
-  local oil_refinery_power          = 420
-  local electric_furnace_power      = 180
-  local electric_mining_drill_power = 90
-  local pumpjack_power              = 90
-  -- Now we can use coal fuel value (8 MJ) as reference point, considering that boiler (390 kW) has 50% efficiency
-  local energy_cost = 4000
-  
   if item == nil
     return nil
   end
